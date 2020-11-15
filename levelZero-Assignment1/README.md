@@ -1,1 +1,1 @@
-### This is the first Assignment of Tanay's Neog Camps challenge
+### This is the first Assignment of Tanay's NeogCamps challenge
