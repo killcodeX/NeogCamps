@@ -6,6 +6,13 @@ console.log("Welcome " + userName + " to 'Do You Know Tanay?'" );
 
 var score = 0;
 
+var HighestScore = 
+  {
+    name: 'Tanay',
+    score : 3
+  }
+
+
 // play function
 function play (question, answer){
   var userAnswer = readlineSync.question(question);
@@ -43,3 +50,10 @@ for(var i = 0; i < questions.length; i++){
 }
 
 console.log('YAY your score :', score)
+
+if(score >= HighestScore.score){
+
+  console.log('Congratulations for highest Score !!');
+  HighestScore.name = userName;
+  HighestScore.score = score;
+}
