@@ -121,13 +121,16 @@ hr {
 /** sections **/
 
 .section {
-    padding: 2rem;
+    padding: 10rem;
 }
 
 .section h1 {
     text-align: center;
 
 }
+
+
+
 
 .ow {
     background-color: var(--off-white);
