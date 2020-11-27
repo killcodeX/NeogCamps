@@ -123,16 +123,16 @@ hr {
   color: var(--dark-gray);
 }
 
-.hero-heading2 div {
+.hero-heading2 .heading-inverted {
   color: var(--primary-color) !important;
   display: inline-block;
-  /* overflow: hidden; */
-  height: 33px;
+  overflow: hidden;
+  height: 35px;
 }
 
 .heading-inverted span {
-  /* display: inline-block; */
-  animation: rotate 5s infinite;
+  display: inline-block;
+  animation: rotate 6s infinite;
 }
 
 @keyframes rotate {
