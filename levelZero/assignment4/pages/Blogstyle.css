@@ -26,6 +26,7 @@ hr {
 /** container **/
 .container {
     padding: 0rem 1rem;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .container-center {
@@ -53,8 +54,6 @@ hr {
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
 }
-
-/** look into BEM naming convention for CSS **/
 
 /** lists **/
 
@@ -94,30 +93,6 @@ hr {
     font-weight: bold;
 }
 
-/** header **/
-
-.hero {
-    padding: 2rem;
-    padding-top: 5rem;
-
-}
-
-.hero .hero-img {
-    max-width: 350px;
-    display: block;
-    margin: auto;
-}
-
-.hero .hero-heading {
-    text-align: center;
-    padding-top: 1rem;
-    color: var(--dark-gray);
-}
-
-.hero .hero-heading .heading-inverted {
-    color: var(--primary-color);
-}
-
 /** sections **/
 
 .section {
@@ -126,12 +101,19 @@ hr {
 
 .section h1 {
     text-align: center;
+    color: var(--primary-color);
 
+}
+
+.section-head-para{
+    text-align: center;
 }
 
 .ow {
     background-color: var(--off-white);
 }
+
+
 
 /** footers **/
 

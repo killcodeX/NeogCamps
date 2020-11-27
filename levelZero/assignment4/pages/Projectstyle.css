@@ -26,6 +26,7 @@ hr {
 /** container **/
 .container {
     padding: 0rem 1rem;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .container-center {
@@ -45,7 +46,8 @@ hr {
 .link-primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
-    color: white
+    color: white;
+
 }
 
 .link-secondary {
@@ -121,20 +123,39 @@ hr {
 /** sections **/
 
 .section {
-    padding: 10rem;
+    padding: 2rem;
 }
 
 .section h1 {
     text-align: center;
 
 }
-
-
-
-
 .ow {
     background-color: var(--off-white);
 }
+
+/* my code */
+
+.main{
+    padding: 40px 10px;;
+}
+
+.section-head-para{
+    text-align: center;
+}
+
+.project-detail{
+    margin-bottom: 30px;
+}
+
+.space{
+    margin-right: 10px;
+}
+
+.space2{
+    margin-right: 10px; 
+}
+
 
 /** footers **/
 
@@ -157,4 +178,25 @@ hr {
 
 .footer ul {
     padding-inline-start: 0px;
+}
+
+
+/* for responsive */
+
+@media (max-width:480px){
+    .navigation .nav-brand {
+        font-weight: bold;
+        position: relative;
+        top: 20px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding-bottom: 10px;
+      }
+    .container1{
+        padding-left: 20px;
+    }
+    .project-detail p {
+        text-align: justify;
+        width: 350px;
+    }
 }
