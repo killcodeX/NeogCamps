@@ -22,8 +22,135 @@
         </li>
       </ul>
     </nav>
+    <section class="section">
+      <div class="container1 container-center">
+        <h1>Blogs</h1>
+        <p class="section-head-para">
+          I am not only a programmer but also a blogger I have been writing
+          blogs for almost 3 years now, basically I started a Ghost writer,
+          where I used write article for other Blog websites, Then finally I
+          have started my own Blogging website (<a
+            href="https://devcript.com"
+            target="_blank"
+            >Devcript</a
+          >). I have also wrote few articles on linkedin too.
+        </p>
+      </div>
+    </section>
 
-    
+    <!-- Article -->
+    <article class="main">
+      <div class="container1 container-center">
+        <h2>5 Shorthand Javascript Tricks To Save Your Time</h2>
+        <div class="project-detail">
+          <p>
+            Shorthand Techniques are special kind of code writing techniques
+            which helps you to reduce the code length and convert the code
+            presentation into more clean and optimized looking way. So here are
+            few examples you can write your Javascript codes into more clean
+            way.
+          </p>
+          <!-- point 1 -->
+          <h3 class="blog-heading">1) The Ternary operator</h3>
+          <p>
+            Instead of writing if else, which uses generally 3-4 lines we can
+            use <strong>Ternary oprator</strong> to reduce the length.
+          </p>
+          <pre><code>
+//Longhand 
+let marks = 26; 
+let result; 
+if(marks >= 30){
+  result = 'Pass'; 
+} else { 
+  result = 'Fail'; 
+} 
+
+//Shorthand 
+let result = marks >= 30 ? 'Pass' : 'Fail';
+          </code></pre>
+          <!-- point 2 -->
+          <h3 class="blog-heading">2) Arrow Function</h3>
+          <p>
+            Arrow function is new addition to js in ES6, where user can create
+            function in more clean way.
+          </p>
+          <pre><code>
+//Longhand 
+function add(num1, num2) { 
+    return num1 + num2; 
+} 
+
+//Shorthand 
+const add = (num1, num2) => num1 + num2;
+          </code></pre>
+          <!-- point 3 -->
+          <h3 class="blog-heading">3) Checking conditions</h3>
+          <p>
+            Instead of comparing element to boolean, we can directly put the
+            element inside the if condition.
+          </p>
+          <pre><code>
+//Longhand 
+let val = true; 
+
+if(val == true){
+  console.log('Condition passed')
+} else { 
+  console.log('Condition Failed')
+} 
+
+//Shorthand 
+let val = true; 
+
+if(val){
+  console.log('Condition passed')
+} else { 
+  console.log('Condition Failed')
+} 
+          </code></pre>
+          <!-- point 4 -->
+          <h3 class="blog-heading">4) Map function</h3>
+          <p>
+            Instead for traditional loop technique, we can use map function to
+            traverse through each element of Array.
+          </p>
+          <pre><code>
+//Longhand 
+var str = [1, 2, 3, 4, 5 , 6];
+
+for(let i = 0; i < str.length; i++) {
+  console.log(str[i] * 2)
+}
+
+//Shorthand 
+str.map(i => console.log(i * 2) )
+          </code></pre>
+          <!-- point 5 -->
+          <h3 class="blog-heading">5) Template Literals</h3>
+          <p>
+            We normally use + operator to concatenate string values with
+            variables. With ES6 template literals we can do it in a more simple
+            way.
+          </p>
+          <pre><code>
+//Longhand 
+console.log('You got a missed call from ' + number + ' at ' + time); 
+
+//Shorthand 
+console.log(`You got a missed call from ${number} at ${time}`);
+          </code></pre>
+
+          <!-- end of article -->
+          <h2 class="blog-heading">Final Words</h2>
+          <p>
+            Some of the examples may seems little difficult but as you practice
+            more, you would able to understand it more, and it would be easy for you to implement. 
+            Happy Coding !!
+          </p>
+        </div>
+      </div>
+    </article>
 
     <!-- Footer -->
     <footer class="footer">
