@@ -49,3 +49,14 @@
     width:800px;
     margin: 0 auto;
 }
+
+
+@media(max-width:480px){
+    .navbar-brand{
+        font-size: 1.5rem;
+    }
+
+    .footer-text{
+        width:350px;
+    }
+}
