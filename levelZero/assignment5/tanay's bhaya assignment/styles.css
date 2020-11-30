@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+
+
+.logo-heading{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-item{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Kalam', cursive;
+}
+
+.section{
+    background-color: #F5F5F550;
+    min-height: 80vh;
+}
+
+
+
+/* footer */
+.foot{
+    padding: 3rem 0;
+    background-color: #FDC160;
+    color: white;
+}
+
+.footer-text{
+    width:500px;
+    margin: 0 auto;
+}
