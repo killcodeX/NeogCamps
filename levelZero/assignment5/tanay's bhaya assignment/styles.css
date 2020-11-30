@@ -5,12 +5,14 @@
 .logo-heading{
     display: flex;
     justify-content: center;
+    background-color: #FDC160 !important;
 }
 
 .navbar-item{
     font-size: 2rem;
     font-weight: bold;
     font-family: 'Kalam', cursive;
+    color: white !important;
 }
 
 .section{
@@ -42,4 +44,10 @@
 .footer-text{
     width:500px;
     margin: 0 auto;
+}
+
+@media(max-width:480px){
+    .footer-text{
+        width:300px;
+    }
 }
