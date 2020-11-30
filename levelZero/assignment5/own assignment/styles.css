@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 
 .logo-heading{
@@ -7,10 +7,10 @@
     justify-content: center;
 }
 
-.navbar-item{
+.navbar-brand{
     font-size: 2rem;
-    font-weight: bold;
-    font-family: 'Kalam', cursive;
+    /* font-weight: bold; */
+    font-family: 'Lobster', cursive;
 }
 
 .section{
@@ -18,10 +18,16 @@
     min-height: 80vh;
 }
 
+.img{
+    height:200px;
+}
+
 .btn{
-    background-color: #FDC160 !important;
-    border-color: #FDC160 !important;
+    background-color: #609DF8 !important;
+    border-color: #609DF8 !important;
     color: white !important;
+    margin: 0 auto;
+    padding: 10px 45px !important;
 }
 
 .box-size{
@@ -35,11 +41,11 @@
 /* footer */
 .foot{
     padding: 3rem 0;
-    background-color: #FDC160;
+    background-color: #609DF8;
     color: white;
 }
 
 .footer-text{
-    width:500px;
+    width:800px;
     margin: 0 auto;
 }
