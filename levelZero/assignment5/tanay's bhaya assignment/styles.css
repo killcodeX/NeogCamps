@@ -18,6 +18,18 @@
     min-height: 80vh;
 }
 
+.btn{
+    background-color: #FDC160 !important;
+    border-color: #FDC160 !important;
+    color: white !important;
+}
+
+.box-size{
+    margin: 20px 0px;
+    min-height: 200px;
+    font-family: 'Kalam', cursive;
+}
+
 
 
 /* footer */
