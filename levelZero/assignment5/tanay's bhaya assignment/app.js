@@ -1,5 +1,5 @@
 // Api URL
-var url = "https://api.funtranslations.com/translate/minion.json"
+var url = "https://cors-anywhere.herokuapp.com/https://api.funtranslations.com/translate/minion.json"
 
 
 // get variables
